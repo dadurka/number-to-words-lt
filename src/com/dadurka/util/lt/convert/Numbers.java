@@ -251,7 +251,7 @@ public class Numbers {
         String answer;
         answer=Numbers.number2Words(1958, "metai", "Įn. įvardž.");
         System.out.println(answer);
-        answer=Numbers.number2Words(1134561, "litas", "G.");
+        answer=Numbers.number2Words(1134562, "litas", "G.");
         System.out.println(answer);
         answer=Numbers.number2Words(1134561, "litas", "G. finansinis");
         System.out.println(answer);
