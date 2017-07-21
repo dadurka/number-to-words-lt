@@ -1,4 +1,5 @@
 /*
+ * Number-to-words converter for Lithuanian
  * Copyright (C) 2017 Virginijus Dadurkevičius (dadurka@gmail.com)
  *
  * This library is free software; you can redistribute it and/or
