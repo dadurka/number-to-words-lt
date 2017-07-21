@@ -25,6 +25,6 @@ milijoną šimtą trisdešimt keturis tūkstančius penkis šimtus šešiasdeši
 vieną milijoną vieną šimtą trisdešimt keturis tūkstančius penkis šimtus šešiasdešimt vieną litą
 tūkstantis devyni šimtai penkiasdešimt aštuntaisiais metais
 ```
-Distributer under LGPL v. 2.1 (or any later) licence
+Distributer under LGPL v. 2.1 (or later) licence
 
 Copyright (C) 2017 Virginijus Dadurkevičius (dadurka@gmail.com)
