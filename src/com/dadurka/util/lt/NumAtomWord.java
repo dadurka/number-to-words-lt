@@ -374,7 +374,7 @@ public class NumAtomWord {
     };
     static final String [][][][][] NUMBER_10_SCALE = {
 	{	{{
-			{"dvidešimt", "dvidešimties", "dvidešimčiai", "dvidešimtį", "dvidešimtimi", "dvidešimtyje"}
+			{"dvidešimt", "dvidešimties", "dvidešimčiai", "dvidešimtį", "dvidešimčia", "dvidešimtyje"}
 		}},{{
 			{"dvidešimtas", "dvidešimto", "dvidešimtam", "dvidešimtą", "dvidešimtu", "dvidešimtame"},
 			{"dvidešimti", "dvidešimtų", "dvidešimtiems", "dvidešimtus", "dvidešimtais", "dvidešimtuose"}
@@ -389,7 +389,7 @@ public class NumAtomWord {
 			{"dvidešimtosios", "dvidešimtųjų", "dvidešimtosioms", "dvidešimtąsias", "dvidešimtosiomis", "dvidešimtosiose"}
 		}}
 	},{	{{
-			{"trisdešimt", "trisdešimties", "trisdešimčiai", "trisdešimtį", "trisdešimtimi", "trisdešimtyje"}
+			{"trisdešimt", "trisdešimties", "trisdešimčiai", "trisdešimtį", "trisdešimčia", "trisdešimtyje"}
 		}},{{
 			{"trisdešimtas", "trisdešimto", "trisdešimtam", "trisdešimtą", "trisdešimtu", "trisdešimtame"},
 			{"trisdešimti", "trisdešimtų", "trisdešimtiems", "trisdešimtus", "trisdešimtais", "trisdešimtuose"},
@@ -404,7 +404,7 @@ public class NumAtomWord {
 			{"trisdešimtosios", "trisdešimtųjų", "trisdešimtosioms", "trisdešimtąsias", "trisdešimtosiomis", "trisdešimtosiose"}
 		}}
 	},{	{{
-			{"keturiasdešimt", "keturiasdešimties", "keturiasdešimčiai", "keturiasdešimtį", "keturiasdešimtimi", "keturiasdešimtyje"}
+			{"keturiasdešimt", "keturiasdešimties", "keturiasdešimčiai", "keturiasdešimtį", "keturiasdešimčia", "keturiasdešimtyje"}
 		}},{{
 			{"keturiasdešimtas", "keturiasdešimto", "keturiasdešimtam", "keturiasdešimtą", "keturiasdešimtu", "keturiasdešimtame"},
 			{"keturiasdešimti", "keturiasdešimtų", "keturiasdešimtiems", "keturiasdešimtus", "keturiasdešimtais", "keturiasdešimtuose"},
@@ -419,7 +419,7 @@ public class NumAtomWord {
 			{"keturiasdešimtosios", "keturiasdešimtųjų", "keturiasdešimtosioms", "keturiasdešimtąsias", "keturiasdešimtosiomis", "keturiasdešimtosiose"}
 		}}
 	},{	{{
-			{"penkiasdešimt", "penkiasdešimties", "penkiasdešimčiai", "penkiasdešimtį", "penkiasdešimtimi", "penkiasdešimtyje"}
+			{"penkiasdešimt", "penkiasdešimties", "penkiasdešimčiai", "penkiasdešimtį", "penkiasdešimčia", "penkiasdešimtyje"}
 		}},{{
 			{"penkiasdešimtas", "penkiasdešimto", "penkiasdešimtam", "penkiasdešimtą", "penkiasdešimtu", "penkiasdešimtame"},
 			{"penkiasdešimti", "penkiasdešimtų", "penkiasdešimtiems", "penkiasdešimtus", "penkiasdešimtais", "penkiasdešimtuose"},
@@ -434,7 +434,7 @@ public class NumAtomWord {
 			{"penkiasdešimtosios", "penkiasdešimtųjų", "penkiasdešimtosioms", "penkiasdešimtąsias", "penkiasdešimtosiomis", "penkiasdešimtosiose"}
 		}}
 	},{	{{
-			{"šešiasdešimt", "šešiasdešimties", "šešiasdešimčiai", "šešiasdešimtį", "šešiasdešimtimi", "šešiasdešimtyje"}
+			{"šešiasdešimt", "šešiasdešimties", "šešiasdešimčiai", "šešiasdešimtį", "šešiasdešimčia", "šešiasdešimtyje"}
 		}},{{
 			{"šešiasdešimtas", "šešiasdešimto", "šešiasdešimtam", "šešiasdešimtą", "šešiasdešimtu", "šešiasdešimtame"},
 			{"šešiasdešimti", "šešiasdešimtų", "šešiasdešimtiems", "šešiasdešimtus", "šešiasdešimtais", "šešiasdešimtuose"},
@@ -449,7 +449,7 @@ public class NumAtomWord {
 			{"šešiasdešimtosios", "šešiasdešimtųjų", "šešiasdešimtosioms", "šešiasdešimtąsias", "šešiasdešimtosiomis", "šešiasdešimtosiose"}
 		}}
 	},{	{{
-			{"septyniasdešimt", "septyniasdešimties", "septyniasdešimčiai", "septyniasdešimtį", "septyniasdešimtimi", "septyniasdešimtyje"}
+			{"septyniasdešimt", "septyniasdešimties", "septyniasdešimčiai", "septyniasdešimtį", "septyniasdešimčia", "septyniasdešimtyje"}
 		}},{{
 			{"septyniasdešimtas", "septyniasdešimto", "septyniasdešimtam", "septyniasdešimtą", "septyniasdešimtu", "septyniasdešimtame"},
 			{"septyniasdešimti", "septyniasdešimtų", "septyniasdešimtiems", "septyniasdešimtus", "septyniasdešimtais", "septyniasdešimtuose"},
@@ -464,7 +464,7 @@ public class NumAtomWord {
 			{"septyniasdešimtosios", "septyniasdešimtųjų", "septyniasdešimtosioms", "septyniasdešimtąsias", "septyniasdešimtosiomis", "septyniasdešimtosiose"}
 		}}
 	},{	{{
-			{"aštuoniasdešimt", "aštuoniasdešimties", "aštuoniasdešimčiai", "aštuoniasdešimtį", "aštuoniasdešimtimi", "aštuoniasdešimtyje"}
+			{"aštuoniasdešimt", "aštuoniasdešimties", "aštuoniasdešimčiai", "aštuoniasdešimtį", "aštuoniasdešimčia", "aštuoniasdešimtyje"}
 		}},{{
 			{"aštuoniasdešimtas", "aštuoniasdešimto", "aštuoniasdešimtam", "aštuoniasdešimtą", "aštuoniasdešimtu", "aštuoniasdešimtame"},
 			{"aštuoniasdešimti", "aštuoniasdešimtų", "aštuoniasdešimtiems", "aštuoniasdešimtus", "aštuoniasdešimtais", "aštuoniasdešimtuose"},
@@ -479,7 +479,7 @@ public class NumAtomWord {
 			{"aštuoniasdešimtosios", "aštuoniasdešimtųjų", "aštuoniasdešimtosioms", "aštuoniasdešimtąsias", "aštuoniasdešimtosiomis", "aštuoniasdešimtosiose"}
 		}}
 	},{	{{
-			{"devyniasdešimt", "devyniasdešimties", "devyniasdešimčiai", "devyniasdešimtį", "devyniasdešimtimi", "devyniasdešimtyje"}
+			{"devyniasdešimt", "devyniasdešimties", "devyniasdešimčiai", "devyniasdešimtį", "devyniasdešimčia", "devyniasdešimtyje"}
 		}},{{
 			{"devyniasdešimtas", "devyniasdešimto", "devyniasdešimtam", "devyniasdešimtą", "devyniasdešimtu", "devyniasdešimtame"},
 			{"devyniasdešimti", "devyniasdešimtų", "devyniasdešimtiems", "devyniasdešimtus", "devyniasdešimtais", "devyniasdešimtuose"},

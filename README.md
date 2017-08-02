@@ -8,11 +8,13 @@ Pure __Java__. No non-standard imports (only `java.util.Arrays` and `java.util.L
 
 ## Synopsis
 ```
-            import com.dadurka.util.lt.ConvertNumbers;
+    import com.dadurka.util.lt.ConvertNumbers;
 
-            String answer;
-            answer=ConvertNumbers.number2Words(1958, "metai", new Options().setNumeralType(NumeralType.ORDINAL_DEFINITE).setCasus(Casus.INSTRUMENTAL));
-            System.out.println(answer);
+    String answer;
+    answer=ConvertNumbers.number2Words(1958, "metai", new Options()
+                         .setNumeralType(NumeralType.ORDINAL_DEFINITE)
+                         .setCasus(Casus.INSTRUMENTAL));
+    System.out.println(answer);
 ```
 Output:
 ```

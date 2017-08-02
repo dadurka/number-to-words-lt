@@ -368,6 +368,12 @@ public static String number2Words (long number, String countableNoun, Options op
      */
     public static void main(String[] args) {
         String answer;
+        answer=ConvertNumbers.number2Words(123456);
+        System.out.println(answer);
+        answer=ConvertNumbers.number2Words(1234567, "medis");
+        System.out.println(answer);
+        answer=ConvertNumbers.number2Words(1234560, "doleris", "Įn. fin");
+        System.out.println(answer);
         answer=ConvertNumbers.number2Words(1958, "metai", "Įn. įvardž.");
         System.out.println(answer);
         answer=ConvertNumbers.number2Words(1134562, "litas", "G.");
