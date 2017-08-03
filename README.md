@@ -4,15 +4,14 @@ Adjusts optional countable noun in any declension/case.
 
 Cardinal, ordinal and definite ordinal forms supported.
 
-Number can be any size integer (0 to max long), positive or negative.
+Number can be any size (0 to max long), positive or negative.
 
-Financial relevance respected by option - casual Lithuanian omits "vienas"(one)
+Financial relevance respected by option. Casual Lithuanian omits "vienas"(one)
 with hundreds, thousands etc., but this may not be acceptable in the financial
 context.
 
 The package can help you automatically generate Lithuanian text with numbers
-(speech synthesis, counters, orders, invoices etc.).?
-
+(speech synthesis, counters, orders, invoices etc.).
 
 Pure __Java__. No non-standard imports.
 
