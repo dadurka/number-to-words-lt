@@ -38,4 +38,7 @@ vieno tūkstančio devynių šimtų penkiasdešimt aštuonių litų
 ```
 Distributed under LGPL v. 2.1 (or later) licence
 
+Respect to Linas Valiukas (https://wiki.pypt.lt) for valuable critics,
+comments and suggestions.
+
 Copyright (C) 2017 Virginijus Dadurkevičius (dadurka @ gmail . com)
