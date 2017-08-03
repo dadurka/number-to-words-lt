@@ -1,7 +1,7 @@
 package com.dadurka.util.lt;
 
 /*
- * Copyright (C) 2017 Virginijus Dadurkevičius (dadurka@gmail.com)
+ * Copyright (C) 2017 Virginijus Dadurkevičius (dadurka@gmail . com)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -24,7 +24,7 @@ package com.dadurka.util.lt;
  * Implements static function {@code number2Words} as number-to-words converter
  *  for Lithuanian, adjusts optional countable noun in any declension/case,
  *  supports cardinal, ordinal and definite ordinal forms
- * @author      Virginijus Dadurkevičius (dadurka @ gmail.com)
+ * @author      Virginijus Dadurkevičius (dadurka @ gmail . com)
  * @version     1.0
  * @since       1.0
  */
@@ -43,7 +43,7 @@ public class ConvertNumbers {
  * @param number        number to be converted (any int/long, zero or negative).
  * @return string of textual representation of a number in Lithuanian language.
  *
- * @author      Virginijus Dadurkevičius (dadurka @ gmail.com)
+ * @author      Virginijus Dadurkevičius (dadurka @ gmail . com)
  * @version     1.0
  * @since       1.0
  */
@@ -73,7 +73,7 @@ public class ConvertNumbers {
  * @return string of textual representation of a number in Lithuanian language,
  *  adjusts optional countable noun.
  *
- * @author      Virginijus Dadurkevičius (dadurka @ gmail.com)
+ * @author      Virginijus Dadurkevičius (dadurka @ gmail . com)
  * @version     1.0
  * @since       1.0
  */
@@ -114,7 +114,7 @@ public class ConvertNumbers {
  *  adjusts optional countable noun in any declension/case, 
  *  supports cardinal, ordinal and definite ordinal forms.
  *
- * @author      Virginijus Dadurkevičius (dadurka @ gmail.com)
+ * @author      Virginijus Dadurkevičius (dadurka @ gmail . com)
  * @version     1.0
  * @since       1.0
  */
@@ -155,7 +155,7 @@ public class ConvertNumbers {
  *
  * @see Options
  * 
- * @author      Virginijus Dadurkevičius (dadurka @ gmail.com)
+ * @author      Virginijus Dadurkevičius (dadurka @ gmail . com)
  * @version     1.0
  * @since       1.0
  */
@@ -389,10 +389,14 @@ public static String number2Words (long number, String countableNoun, Options op
         assert ConvertNumbers.number2Words(1134561, "litas", "G. fin").equals(
             "vieną milijoną vieną šimtą trisdešimt keturis tūkstančius penkis šimtus šešiasdešimt vieną litą") :
             "Something went wrong...";
-        answer=ConvertNumbers.number2Words(
-                2017,
-                "metai",
-                new Options().setNumeralType(NumeralType.ORDINAL_DEFINITE).setCasus(Casus.INSTRUMENTAL)
+        answer=ConvertNumbers.number2Words(1958, "metai", new Options()
+                .setNumeralType(NumeralType.ORDINAL_DEFINITE)
+                .setCasus(Casus.INSTRUMENTAL)
+        );
+        System.out.println(answer);
+        answer=ConvertNumbers.number2Words(1958, "litas", new Options()
+                .setCasus(Casus.GENITIVE)
+                .setFinancial()
         );
         System.out.println(answer);
     

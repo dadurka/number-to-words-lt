@@ -1,7 +1,7 @@
 package com.dadurka.util.lt;
 
 /*
- * Copyright (C) 2017 Virginijus Dadurkevičius (dadurka @ gmail.com)
+ * Copyright (C) 2017 Virginijus Dadurkevičius (dadurka @ gmail . com)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -22,7 +22,7 @@ package com.dadurka.util.lt;
 /**
  * Primitive one-word Lithuanian numeral.
  *  
- * @author      Virginijus Dadurkevičius (dadurka @ gmail.com)
+ * @author      Virginijus Dadurkevičius (dadurka @ gmail . com)
  * @version     1.0
  * @since       1.0
  */

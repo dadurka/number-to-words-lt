@@ -138,6 +138,59 @@ public class ConvertNumbersTest {
                 .setCasus(Casus.LOCATIVE)
         );
         assertEquals(expResult, result);
+        number = 1101;
+        countableNoun = "litas";
+        options = new Options();
+        expResult = "tūkstančio šimto vieno lito";
+        result = ConvertNumbers.number2Words(number, countableNoun, options
+                .setNumeralType(NumeralType.CARDINAL)
+                .setCasus(Casus.GENITIVE)
+        );
+        assertEquals(expResult, result);
+        number = 1101;
+        countableNoun = "litas";
+        options = new Options();
+        expResult = "vieno tūkstančio vieno šimto vieno lito";
+        result = ConvertNumbers.number2Words(number, countableNoun, options
+                .setCasus(Casus.GENITIVE)
+                .setFinancial()
+        );
+        assertEquals(expResult, result);
+        number = 0;
+        countableNoun = "litas";
+        options = new Options();
+        expResult = "nulio litų";
+        result = ConvertNumbers.number2Words(number, countableNoun, options
+                .setCasus(Casus.GENITIVE)
+                .setFinancial()
+        );
+        assertEquals(expResult, result);
+        number = -110;
+        countableNoun = "litas";
+        options = new Options();
+        expResult = "minus šimtas dešimt litų";
+        result = ConvertNumbers.number2Words(number, countableNoun, options);
+        assertEquals(expResult, result);
+        number = 111;
+        countableNoun = "";
+        options = new Options();
+        expResult = "šimtas vienuoliktosiomis";
+        result = ConvertNumbers.number2Words(number, countableNoun, options
+                .setCasus(Casus.INSTRUMENTAL)
+                .setNumerus(Numerus.PLURAL)
+                .setGenus(Genus.FEMININE)
+                .setNumeralType(NumeralType.ORDINAL_DEFINITE)
+        );
+        assertEquals(expResult, result);
+        number = 111;
+        countableNoun = "metinės";
+        options = new Options();
+        expResult = "šimtas vienuoliktosiomis metinėmis";
+        result = ConvertNumbers.number2Words(number, countableNoun, options
+                .setCasus(Casus.INSTRUMENTAL)
+                .setNumeralType(NumeralType.ORDINAL_DEFINITE)
+        );
+        assertEquals(expResult, result);
     }
 
 }

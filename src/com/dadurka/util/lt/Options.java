@@ -1,7 +1,7 @@
 package com.dadurka.util.lt;
 
 /*
- * Copyright (C) 2017 Virginijus Dadurkevičius (dadurka @ gmail.com)
+ * Copyright (C) 2017 Virginijus Dadurkevičius (dadurka @ gmail . com)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -26,12 +26,12 @@ package com.dadurka.util.lt;
  *    GENDER (Latin "genus, Lithuanian "giminė")
  *    NUMBER (singular or plural, Latin "numerus", Lithuanian "skaičius")
  *    CASE (Latin "Casus, Lithuanian "linksnis")
- *    FINANCIAL RELEVANCE (casul Lithuanian ommits "vienas"(one) with hundrets,
+ *    FINANCIAL RELEVANCE (casual Lithuanian omits "vienas"(one) with hundreds,
  *              thousands etc., but this may not be acceptable in the
  *              financial context)</pre>
  *  Just created Options object is filled with following default values:
  *  cardinal type, masculine, singular, nominative, not financial.
-* @author      Virginijus Dadurkevičius (dadurka @ gmail.com)
+ * @author      Virginijus Dadurkevičius (dadurka @ gmail . com)
  * @version     1.0
  * @since       1.0
  */
@@ -44,6 +44,7 @@ public class Options {
 
 /**
  * @param desiredNumeralType enumerated type of numeral.
+ * @return this instance of Options.
  * @see NumeralType
  */
     public Options setNumeralType(NumeralType desiredNumeralType){
@@ -53,6 +54,7 @@ public class Options {
 
 /**
  * @param desiredGenus enumerated gender.
+ * @return this instance of Options.
  * @see Genus
  */
     public Options setGenus(Genus desiredGenus){
@@ -62,6 +64,7 @@ public class Options {
 
 /**
  * @param desiredNumerus enumerated number (singular or plural)
+ * @return this instance of Options.
  * @see Numerus
  */
     public Options setNumerus(Numerus desiredNumerus){
@@ -71,6 +74,7 @@ public class Options {
 
 /**
  * @param desiredCasus enumerated case (nominative, genitive, ...)
+ * @return this instance of Options.
  * @see Casus
  */
     public Options setCasus(Casus desiredCasus){
